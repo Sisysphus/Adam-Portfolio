@@ -1019,6 +1019,7 @@ a:not([href]):not([tabindex]):hover {
   padding: 4px;
   border: 1px solid #e1e1e1;
   margin-top: 30px;
+  border: none;
 }
 
 .footer-right-contact .single-contact {
@@ -1169,6 +1170,9 @@ a:not([href]):not([tabindex]):hover {
   width: 450px;
   border: 1px solid #e1e1e1;
   margin-bottom: 7px;
+  box-shadow: none;
+  outline: none;
+  border: none;
 }
 
 .contact-form-button {
@@ -1177,9 +1181,10 @@ a:not([href]):not([tabindex]):hover {
   color: white;
   font-weight: 600;
   border: none;
+  text-align: center;
 }
 
 .contact-form-button:hover {
-  background-color: #06d1fa;
+  background-color: #8e3759;
   transition: 0.3s;
 }
