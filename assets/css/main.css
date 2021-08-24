@@ -505,7 +505,7 @@ a.back-to-top:focus {
 }
 
 .top-nav-collapse .navbar-brand img {
-  width: 65%;
+  width: 95%;
 }
 
 .top-nav-collapse .navbar-nav .nav-link {
@@ -705,7 +705,7 @@ a.back-to-top:focus {
     top: 0;
   }
   .navbar-brand img {
-    width: 65%;
+    height: 95%;
   }
   #mobile-menu {
     display: none;
@@ -860,6 +860,7 @@ a.back-to-top:focus {
 
 .shot-item img {
   width: 100%;
+  height: fit-content;
 }
 
 .shot-item .overlay {
@@ -868,14 +869,14 @@ a.back-to-top:focus {
   height: 100%;
   left: 0;
   top: 0;
-  background: rgba(0, 180, 217, 0.6);
+  background: #8e3759;
   opacity: 0;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
 
 .shot-item:hover .overlay {
-  opacity: 1;
+  opacity: 0.5;
 }
 
 .overlay {
@@ -1191,13 +1192,23 @@ a:not([href]):not([tabindex]):hover {
 .fullname {
   font-weight: bolder !important;
   font-size: 2em;
+  font-family: "Raleway";
   color: black;
 }
 
 .fullname2 {
-  font-style: italic;
+  font-family: "Raleway";
   font-size: 1.3em;
+  font-weight: 900;
   color: black;
   font-weight: 100;
   margin-left: 20px;
+}
+
+.shot-item .inspireheigh {
+  height: inherit;
+}
+
+.imgurr {
+  height: 100px;
 }
